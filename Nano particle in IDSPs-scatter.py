@@ -51,14 +51,15 @@ def labeller(x, pos):
 	else:
 		return format(x,'.0f')
 #############################################load data##################################################
-xlsfile='F:\\python_work\\data\\data.xlsx'
+xlsfile='data.xlsx'
 Ydata=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'Size'))
 Ydata=Ydata['size'].astype('float64')
 Y=Ydata.values
 ########################################################################################
 #data=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'20171219-urban'))
 #data=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'20171221-highway'))
-#data=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'20171221-upper air'))
+#data=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'20171221-AM'))
+#data=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'20171221-PM'))
 #data=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'20171222-AM1'))
 #data=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'20171222-AM2'))
 #data=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'20171222-PM1'))
@@ -66,7 +67,7 @@ data=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'20171222-PM2'))
 #######################################################################################
 GMDdata=data['GMD'].astype('float64')
 TNdata=data['TN'].astype('float64')
-Zdata=data.ix[:,1:13]#Zdata=data.loc['11.5':'273.8']#both the start and the stop are included
+Zdata=data.iloc[:,1:13]#Zdata=data.loc['11.5':'273.8']#both the start and the stop are included
 Zdata.astype('float64')
 Z=Zdata.values
 GMD=GMDdata.values
@@ -83,11 +84,12 @@ plt.xlabel('Geometric Mean Diameter (nm)', fontsize=24)
 #############################################################################
 #titleStr='TN versus GMD, 2017-12-19 in an urban site'
 #titleStr='TN versus GMD, 2017-12-21 in highway'
-#titleStr='TN versus GMD, Flight-1 in 2017-12-21 PM'
-#titleStr='TN versus GMD, Flight-1 in 2017-12-22 AM'
-#titleStr='TN versus GMD, Flight-2 in 2017-12-22 AM'
-#titleStr='TN versus GMD, Flight-3 in 2017-12-22 PM'
-titleStr='TN versus GMD, Flight-2 in 2017-12-22 PM'
+#titleStr='TN versus GMD, Flight-1 in 2017-12-21 AM'
+#titleStr='TN versus GMD, Flight-2 in 2017-12-21 PM'
+#titleStr='TN versus GMD, Flight-3 in 2017-12-22 AM'
+#titleStr='TN versus GMD, Flight-4 in 2017-12-22 AM'
+#titleStr='TN versus GMD, Flight-5 in 2017-12-22 PM'
+titleStr='TN versus GMD, Flight-6 in 2017-12-22 PM'
 ##############################################################################
 #plt.tight_layout()
 filename=titleStr

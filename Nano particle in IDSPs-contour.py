@@ -56,12 +56,13 @@ Ydata=Ydata['size'].astype('float64')
 Y=Ydata.values
 ########################################################################################
 #data=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'20171219-urban'))
-#data=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'20171221-highway'))
-#data=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'20171221-upper air'))
+data=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'20171221-highway'))
+#data=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'20171221-AM'))
+#data=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'20171221-PM'))
 #data=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'20171222-AM1'))
 #data=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'20171222-AM2'))
 #data=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'20171222-PM1'))
-data=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'20171222-PM2'))
+#data=pd.DataFrame(pd.read_excel(xlsfile, sheet_name=u'20171222-PM2'))
 #######################################################################################
 Xdata=data['Date Time']
 Xdata=pd.to_datetime(Xdata, unit='s')
@@ -71,7 +72,8 @@ X=[DT(TS(i)) for i in Xdata]
 print(X)
 GMDdata=data['GMD'].astype('float64')
 TNdata=data['TN'].astype('float64')
-Zdata=data.ix[:,1:13]#Zdata=data.loc['11.5':'273.8']#both the start and the stop are included
+Zdata=data.iloc[:,1:13]
+#Zdata=data.loc['12':'274']#both the start and the stop are included
 print(Zdata)
 Zdata.astype('float64')
 Z=Zdata.values
@@ -79,12 +81,13 @@ GMD=GMDdata.values
 TN=	TNdata.values
 ################################################################################
 #minval, maxval=0, 1400
-#minval, maxval=0, 10000
+minval, maxval=0, 10000
+#minval, maxval=0, 800
 #minval, maxval=0, 1000
 #minval, maxval=0, 8000
 #minval, maxval=0, 12000
 #minval, maxval=0, 4000
-minval, maxval=0, 10000
+#minval, maxval=0, 10000
 ##################################################################################
 ZT=Z.T
 ZT=np.where(ZT>maxval, maxval-1, ZT)
@@ -117,20 +120,22 @@ cbar.ax.tick_params(labelsize=18)
 cbar.set_label('Number Concentration (#/'+'$cm^{3}$'+')', fontsize=24)
 #############################################################################
 #cbar.set_ticks(np.linspace(0, 1400, 8))
-#cbar.set_ticks(np.linspace(0, 10000, 6))
+cbar.set_ticks(np.linspace(0, 10000, 6))
+#cbar.set_ticks(np.linspace(0, 800, 5))
 #cbar.set_ticks(np.linspace(0, 1000, 6))
 #cbar.set_ticks(np.linspace(0, 8000, 5))
 #cbar.set_ticks(np.linspace(0, 12000, 7))
 #cbar.set_ticks(np.linspace(0, 4000, 5))
-cbar.set_ticks(np.linspace(0, 10000, 6))
+#cbar.set_ticks(np.linspace(0, 10000, 6))
 
 #titleStr='2017-12-19 in an urban site'
-#titleStr='2017-12-21 in a road site'
-#titleStr='Flight-1 in 2017-12-21 PM'
-#titleStr='Flight-1 in 2017-12-22 AM'
-#titleStr='Flight-2 in 2017-12-22 AM'
-#titleStr='Flight-3 in 2017-12-22 PM'
-titleStr='Flight-2 in 2017-12-22 PM'
+titleStr='2017-12-21 in a road site'
+#titleStr='Flight-1 in 2017-12-21 AM'
+#titleStr='Flight-2 in 2017-12-21 PM'
+#titleStr='Flight-3 in 2017-12-22 AM'
+#titleStr='Flight-4 in 2017-12-22 AM'
+#titleStr='Flight-5 in 2017-12-22 PM'
+#titleStr='Flight-6 in 2017-12-22 PM'
 ##############################################################################
 plt.tight_layout()
 filename=titleStr
