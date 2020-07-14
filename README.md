@@ -25,12 +25,32 @@
 
 ![TN versus GMD, 2017-12-19 in an urban site.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/TN%20versus%20GMD%2C%202017-12-19%20in%20an%20urban%20site.png)
 
-![2017-12-21 in a road site](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/2017-12-21%20in%20a%20road%20site.png)
+![2017-12-21 in a road site.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/2017-12-21%20in%20a%20road%20site.png)
 
+![TN versus GMD, 2017-12-21 in a road site.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/TN%20versus%20GMD%2C%202017-12-21%20in%20a%20road%20site.png)
 
+![Flight-1 in 2017-12-21 AM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/Flight-1%20in%202017-12-21%20AM.png)
 
+![TN versus GMD, Flight-1 in 2017-12-21 AM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/TN%20versus%20GMD%2C%20Flight-1%20in%202017-12-21%20AM.png)
 
+![Flight-2 in 2017-12-21 PM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/Flight-2%20in%202017-12-21%20PM.png)
 
-&nbsp; 
+![TN versus GMD, Flight-2 in 2017-12-21 PM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/TN%20versus%20GMD%2C%20Flight-2%20in%202017-12-21%20PM.png)
+
+![Flight-3 in 2017-12-22 AM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/Flight-3%20in%202017-12-22%20AM.png)
+
+![TN versus GMD, Flight-3 in 2017-12-22 AM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/TN%20versus%20GMD%2C%20Flight-3%20in%202017-12-22%20AM.png)
+
+![Flight-4 in 2017-12-22 AM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/Flight-4%20in%202017-12-22%20AM.png)
+
+![TN versus GMD, Flight-4 in 2017-12-22 AM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/TN%20versus%20GMD%2C%20Flight-4%20in%202017-12-22%20AM.png)
+
+![Flight-5 in 2017-12-22 PM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/Flight-5%20in%202017-12-22%20PM.png)
+
+![TN versus GMD, Flight-5 in 2017-12-22 PM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/TN%20versus%20GMD%2C%20Flight-5%20in%202017-12-22%20PM.png)
+
+![Flight-6 in 2017-12-22 PM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/Flight-6%20in%202017-12-22%20PM.png)
+
+![TN versus GMD, Flight-6 in 2017-12-22 PM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/TN%20versus%20GMD%2C%20Flight-6%20in%202017-12-22%20PM.png)
 
 ### 4. 结论与展望 
