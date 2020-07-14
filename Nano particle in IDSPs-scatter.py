@@ -83,7 +83,7 @@ plt.ylabel('Total Number Concentration (#/'+'$cm^{3}$'+')', fontsize=24)
 plt.xlabel('Geometric Mean Diameter (nm)', fontsize=24)
 #############################################################################
 #titleStr='TN versus GMD, 2017-12-19 in an urban site'
-#titleStr='TN versus GMD, 2017-12-21 in highway'
+#titleStr='TN versus GMD, 2017-12-21 in a road site'
 #titleStr='TN versus GMD, Flight-1 in 2017-12-21 AM'
 #titleStr='TN versus GMD, Flight-2 in 2017-12-21 PM'
 #titleStr='TN versus GMD, Flight-3 in 2017-12-22 AM'
