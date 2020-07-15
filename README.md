@@ -62,4 +62,6 @@
 
 ![TN versus GMD, Flight-6 in 2017-12-22 PM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/TN%20versus%20GMD%2C%20Flight-6%20in%202017-12-22%20PM.png)
 
+![Flight 3-6 Size Distribution.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Flight3-6_Size_Distribution_Minute.png)
+
 ### 4. 结论与展望 
