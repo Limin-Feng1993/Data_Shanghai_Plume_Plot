@@ -1,6 +1,6 @@
 # Data_Shanghai_Plume_Plot
 
-> 2017年12月，中国海洋大学姚小红课题组、上海交通大学彭仲仁课题组与天璇无人机公司合作，于上海对高架源工业烟羽进行了航测，以下是对数据的说明。绘图代码见两个Python文件。
+> 2017年12月，中国海洋大学姚小红课题组、上海交通大学彭仲仁课题组与天璇无人机公司合作，于上海对高架源工业烟羽进行了航测，以下是对数据的说明。绘图代码见两个Python文件(.py)。
 
 ### 1. 背景介绍
 
@@ -44,28 +44,62 @@
 
 ![TN versus GMD, Flight-1 in 2017-12-21 AM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/TN%20versus%20GMD%2C%20Flight-1%20in%202017-12-21%20AM.png)
 
-&nbsp; 在12月21日下午的第二次航测中，除了几个在10 nm粒径段出现的异常高值之外，SMPS测得的纳米颗粒物数浓度在2000-3000之间，且几何平均粒径在60-80 nm之间，说明无人机穿越在均质气团中。由于地面加热，湍流增强，300-500米高度的空气混合均匀。纳米颗粒物的峰值出现在100-200 nm，说明测得的是老化之后的烟羽气溶胶，故结果与12月19日在城区近地面空气测得的结果一致。
+&nbsp; 在12月21日下午的第二次航测中，除了几个在10 nm粒径段出现的异常高值之外，SMPS测得的纳米颗粒物总浓度在2000-3000个/cm<sup>3</sup>之间，且几何平均粒径在60-80 nm之间，说明无人机穿越在均质气团中。由于地面加热，湍流增强，300-500米高度的空气混合均匀。纳米颗粒物的峰值出现在100-200 nm，说明测得的是老化之后的烟羽气溶胶，故结果与12月19日在城区近地面空气测得的结果一致。
 
 ![Flight-2 in 2017-12-21 PM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/Flight-2%20in%202017-12-21%20PM.png)
 
 ![TN versus GMD, Flight-2 in 2017-12-21 PM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/TN%20versus%20GMD%2C%20Flight-2%20in%202017-12-21%20PM.png)
 
+&nbsp; 12月22日的航测由于烟羽方向较为稳定，且无人机距离烟囱较近，故SMPS仪器得以在烟羽中悬停一分钟以上使测量数值稳定。在第三次航测，也就是12月22日早上的第一次观测中，往返过程测得的纳米颗粒物的几何平均粒径集中在50-60 nm，而在烟羽中测得的纳米颗粒物的几何平均粒径集中在90-100 nm。同时，往返过程测得的纳米颗粒物的总浓度由近地面空气中的40000-50000个/cm<sup>3</sup>剧烈下降至10000个/cm<sup>3</sup>。烟羽中纳米颗粒物比周围空气中的数量少，平均粒径大。这可能是因为烟羽气溶胶的密度较大，颗粒物之间的距离较短，由于云内清除 (In-cloud scavenging) 效应，使纳米颗粒物吸湿和碰并，粒径增长但数量下降。纳米颗粒物发生碰并而被清除的过程一般是两两碰并，这可以解释为什么在烟羽附近的周围空气中测得纳米颗粒物的总浓度约为20000个/cm<sup>3</sup>，恰好是烟羽内纳米颗粒物的数浓度的两倍。
+
 ![Flight-3 in 2017-12-22 AM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/Flight-3%20in%202017-12-22%20AM.png)
 
 ![TN versus GMD, Flight-3 in 2017-12-22 AM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/TN%20versus%20GMD%2C%20Flight-3%20in%202017-12-22%20AM.png)
+
+&nbsp; 第四次航测，也就是12月22日早上的第二次观测的结果与第一次类似，区别在于，纳米颗粒物的总浓度减少的更剧烈，从50000-60000个/cm<sup>3</sup>下降至2200-2500 个/cm<sup>3</sup>；而进入烟羽后纳米颗粒物的粒径增长也更明显，几何平均粒径从50 nm增长至100 nm以上。两次的观测时间接近，烟羽气团本身没有发生太大变化，区别主要来自于无人机的驾驶过程。  
 
 ![Flight-4 in 2017-12-22 AM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/Flight-4%20in%202017-12-22%20AM.png)
 
 ![TN versus GMD, Flight-4 in 2017-12-22 AM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/TN%20versus%20GMD%2C%20Flight-4%20in%202017-12-22%20AM.png)
 
+&nbsp; 第五次航测，也就是12月22日下午的第一次观测，烟羽中的纳米颗粒物数浓度峰值出现在50-100 nm粒径段。虽然烟羽中颗粒物的总浓度出现增长，但是几何平均粒径变化幅度不大。
+
 ![Flight-5 in 2017-12-22 PM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/Flight-5%20in%202017-12-22%20PM.png)
 
 ![TN versus GMD, Flight-5 in 2017-12-22 PM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/TN%20versus%20GMD%2C%20Flight-5%20in%202017-12-22%20PM.png)
+
+&nbsp; 第六次航测，也就是12月22日下午的第二次观测，烟羽中的纳米颗粒物数浓度峰值出现的粒径段，由30 nm增长至200 nm以上。这是一个完整的纳米颗粒物在烟羽中从新鲜生成、吸湿碰并增长、老化过程。
 
 ![Flight-6 in 2017-12-22 PM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/Flight-6%20in%202017-12-22%20PM.png)
 
 ![TN versus GMD, Flight-6 in 2017-12-22 PM.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Fig/TN%20versus%20GMD%2C%20Flight-6%20in%202017-12-22%20PM.png)
 
+&nbsp; 下图12月22日的四次观测中，代表性的纳米颗粒物的粒径分布测量结果。
+
 ![Flight 3-6 Size Distribution.](https://github.com/Limin-Feng1993/Data_Shanghai_Plume_Plot/raw/master/Flight3-6_Size_Distribution_Minute.png)
 
 ### 4. 结论与展望 
+
+
+### 作者贡献说明
+
+
+出品人：彭仲仁（上海交通大学）
+
+
+总策划：姚小红 (中国海洋大学)
+
+
+导演、编剧：冯立民 (中国科学院大气物理研究所)
+
+
+仪器调试安装： 宋瑞锋 (上海交通大学)  李白 (上海交通大学)
+
+
+工程师：牛猛 (天璇无人机公司)
+
+
+无人机飞手： 曹孟 (天璇无人机公司)
+
+
+鸣谢：上海市宝山区、吴泾区热电厂。
